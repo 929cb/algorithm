@@ -30,6 +30,24 @@ struct ListNode* reverseList(struct ListNode* head)
     return pre;
 }
 
+
+//  递归法
+struct ListNode* reverse(struct ListNode* pre, struct ListNode* cur)
+{
+    if(cur == NULL)
+        return pre;
+
+    struct ListNode* temp = cur->next;
+    cur->next = pre;
+
+    return reverse(cur, temp);
+}
+
+struct ListNode* reverseList2(struct ListNode* head)
+{
+    return reverse(NULL, head);
+}
+
 int main()
 {
     struct ListNode* head = (struct ListNode*)malloc(sizeof(struct ListNode));
@@ -47,7 +65,7 @@ int main()
         p = p->next;
     }
 
-    p = reverseList(head->next);
+    p = reverseList2(head->next);
 
     while(p)
     {

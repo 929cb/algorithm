@@ -9,3 +9,5 @@ Practice algorithmic recording
 	leetcode -> 203、707
 22年7月30日
 	leetcode -> 206、24
+23年7月31日
+	leetcode -> 19、0207

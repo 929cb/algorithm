@@ -35,8 +35,11 @@ struct ListNode* swapPairs(struct ListNode* head)
         temp1->next = temp2;    //  此时temp1指向的是当前组的第二个，将下一个指向下一组的第一个
         cur = temp1;    //  更新cur
     }
+    
+    head = temHead->next;
+    free(temHead);
 
-    return temHead->next;
+    return head;
 }
 
 int main()

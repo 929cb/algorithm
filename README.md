@@ -12,4 +12,4 @@ Practice algorithmic recording
 🚩23年7月31日：
 	leetcode -> 19、0207
 🚩23年8月1日：
-	leetcode -> 142
+	leetcode -> 142、242

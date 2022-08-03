@@ -15,3 +15,5 @@ Practice algorithmic recording
 	leetcode -> 142、242
 🚩23年8月2日：
 	leetcode -> 349
+🚩23年8月3日：
+	leetcode -> 202、1

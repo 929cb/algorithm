@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.s": "bibtex",
+        "cmath": "c",
+        "*.tcc": "c",
+        "cstdlib": "c"
+    }
+}
